@@ -9,29 +9,35 @@
         div{
             width: 200px;
             height: 200px;
-            animation: aa 1s linear infinite;
+            animation: aa 3s linear infinite;
             background: #f60;
             margin: 200px auto;
             border-radius: 100px;
             text-align: center;
             line-height: 200px;
-            font-size: 50px;
+            font-size: 30px;
             text-shadow: 5px 5px 5px green;
             box-shadow: 0 0px 20px black;
         }
         @keyframes aa{
-            form{
+            0%{
                 transform: rotate(0deg)
+                scale(1)
             }
-            to{
+            50%{
                 transform: rotate(360deg)
+                scale(1.6)
+            }
+            100%{
+                transform: 
+                scale(1)
             }
         }
     </style>
 </head>
 <body>
     <div>
-        转圈圈
+        转圈圈喽！
     </div>
 </body>
 </html>
